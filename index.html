@@ -10,10 +10,35 @@
 
 <body>
   <div id="app">
-    <h1>WKT Parser</h1>
-    <textarea id="wkt-input" placeholder="Enter WKT text here..."></textarea>
-    <button id="parse-button">Parse</button>
-    <div id="result-view"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h1 class="display-4 text-center mb-4">WKT Parser</h1>
+          
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="mb-3">
+                <label for="wkt-input" class="form-label">Enter WKT (Well-Known Text) here:</label>
+                <textarea 
+                  id="wkt-input" 
+                  class="form-control font-monospace" 
+                  rows="6"
+                  placeholder="Example: POINT(30 10) or POLYGON((30 10, 40 40, 20 40, 10 20, 30 10))"
+                ></textarea>
+              </div>
+              
+              <div class="text-center mb-3">
+                <button id="parse-button" class="btn btn-primary btn-lg">
+                  <i class="bi bi-play-fill"></i> Parse WKT
+                </button>
+              </div>
+              
+              <div id="result-view" class="border rounded p-3 bg-light d-none"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <script type="module" src="/src/main.ts"></script>
 </body>
