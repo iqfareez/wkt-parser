@@ -1,6 +1,6 @@
 # 🌎 WKT Parser
 
-![image](https://github.com/user-attachments/assets/92102e82-4ec1-4125-9518-1ffbed89bceb)
+<img width="1283" height="921" alt="wkt parser screenshot" src="https://github.com/user-attachments/assets/9eacb729-7691-412b-bf9d-dd90be07a0f0" />
 
 A tool to format WKT strings to tree structure.
 
